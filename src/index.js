@@ -2,14 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-class Main extends React.Component {
-  render() {
-    return (
-      <div className="main">
-        <div>Hello react!</div>
+function Main() {
+
+  const hello = "Hello React!"
+  return (
+    <div className="main">
+      <div>
+        {hello}
       </div>
-    );
-  }
+    </div>
+  );
 }
 
 ReactDOM.render(
