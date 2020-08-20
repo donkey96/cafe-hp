@@ -4,11 +4,14 @@ import './index.css';
 
 function Main() {
 
-  const hello = "Hello React!"
   return (
     <div className="main">
-      <div>
-        {hello}
+      <h1>Cafe</h1>
+      <div className="menu">
+        <p>Concept</p>
+        <p>Menu</p>
+        <p>Access</p>
+        <p>Recruit</p>
       </div>
     </div>
   );
